@@ -1,0 +1,53 @@
+{
+  "id": "40aa52ea-90d1-4e0c-9d70-2fea308f2bb3",
+  "name": "Activity",
+  "auto": true,
+  "contexts": [
+    "activity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d1000113-852b-4c2d-a191-787d588e5427",
+          "required": true,
+          "dataType": "@Answers",
+          "name": "ActivityAnswers",
+          "value": "$ActivityAnswers",
+          "isList": false
+        },
+        {
+          "id": "0cf301a2-1cae-4e5c-8a52-30c30e43aa92",
+          "required": false,
+          "dataType": "@Answers",
+          "name": "CustodyAnswers",
+          "value": "$CustodyAnswers",
+          "isList": false
+        },
+        {
+          "id": "f3b3a8f8-0096-48fe-9dc9-c12bc24dfda9",
+          "dataType": "@Answers",
+          "name": "DisabilityAnswers",
+          "value": "$DisabilityAnswers"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526834805,
+  "fallbackIntent": false,
+  "events": []
+}
