@@ -6,6 +6,6 @@
 
 ###### Florida, in accordance with federal law, has enacted several programs which provide access to health care, housing, education, social and financial support. However, the eligibility requirements for each program are specific and can depend on the youth's legal status at certain ages, the length of time the youth spent in certain placements, the youth's educational achievements and current age.
 
-#####To help navigate this complicated system, we would like to create a chatbot that walks a youth and/or their advocate through questions to help determine eligibility for the various programs. Most of the questions could be answered with yes, no, or I don't know.
+##### To help navigate this complicated system, we would like to create a chatbot that walks a youth and/or their advocate through questions to help determine eligibility for the various programs. Most of the questions could be answered with yes, no, or I don't know.
 
 ###### In an ideal world, this chatbot could be expanded to cover the entire U.S. and be available to all youth and young adults who have aged out of care
