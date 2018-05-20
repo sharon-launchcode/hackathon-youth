@@ -1,0 +1,59 @@
+{
+  "id": "e0c6ad83-339e-4ec6-9679-5c7a1e79cf13",
+  "parentId": "40ef2f7a-4233-4817-aa6a-32962efaf8d1",
+  "rootParentId": "8e6244a3-1f12-4be2-9809-644cba5808fd",
+  "name": "InFosterCare",
+  "auto": true,
+  "contexts": [
+    "AgeInYears-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FosterYouthEligibility.FosterYouthEligibility-yes.FosterYouthEligibility-yes-custom.AgeInYears-custom",
+      "affectedContexts": [
+        {
+          "name": "InFosterCare-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Disability",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9fec240b-7652-4490-a9a2-95989c64aeee",
+          "required": true,
+          "dataType": "@Answers",
+          "name": "Answers",
+          "value": "$Answers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You can answer Yes, No or I don\u0027t know"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526833729,
+  "fallbackIntent": false,
+  "events": []
+}

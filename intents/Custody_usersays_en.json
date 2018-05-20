@@ -1,0 +1,30 @@
+[
+  {
+    "id": "45032d97-d9da-4452-bb14-55b565004f87",
+    "data": [
+      {
+        "text": "no",
+        "alias": "CustodyAnswers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834227
+  },
+  {
+    "id": "442d3925-ae22-4ed6-835f-140c97e92179",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "CustodyAnswers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834227
+  }
+]

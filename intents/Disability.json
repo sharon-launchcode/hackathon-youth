@@ -1,0 +1,52 @@
+{
+  "id": "6495d04d-59e5-4dec-9ac2-5a6039b97c2b",
+  "name": "Disability",
+  "auto": true,
+  "contexts": [
+    "disability"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FosterYouthEligibility.FosterYouthEligibility-yes.FosterYouthEligibility-yes-custom.AgeInYears-custom.InFosterCare-custom",
+      "affectedContexts": [
+        {
+          "name": "custody",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "991dfe6f-272d-418a-85f8-d9e7ae595d07",
+          "required": false,
+          "dataType": "@Answers",
+          "name": "DisabilityAnswers",
+          "value": "$DisabilityAnswers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You can say Yes or No"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526834191,
+  "fallbackIntent": false,
+  "events": []
+}

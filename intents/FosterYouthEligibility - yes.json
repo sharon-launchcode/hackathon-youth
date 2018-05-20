@@ -1,0 +1,39 @@
+{
+  "id": "9c6b295a-de49-47d0-93c7-87e1674481f6",
+  "parentId": "8e6244a3-1f12-4be2-9809-644cba5808fd",
+  "rootParentId": "8e6244a3-1f12-4be2-9809-644cba5808fd",
+  "name": "FosterYouthEligibility - yes",
+  "auto": true,
+  "contexts": [
+    "FosterYouthEligibility-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FosterYouthEligibility.FosterYouthEligibility-yes",
+      "affectedContexts": [
+        {
+          "name": "FosterYouthEligibility-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great.  How old are you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526806967,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "7f9270a7-8393-4123-99b6-de814f2f6319",
+    "data": [
+      {
+        "text": "no",
+        "alias": "DisabilityAnswers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834191
+  },
+  {
+    "id": "14862f36-c108-4eb5-893b-a4700c2ca8f5",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "DisabilityAnswers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834191
+  }
+]

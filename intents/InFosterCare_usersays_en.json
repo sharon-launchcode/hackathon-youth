@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2a25b1de-e56b-4b86-9d9e-9b0159125909",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "alias": "Answers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526809660
+  },
+  {
+    "id": "e9a2b889-7f58-4400-85aa-c6790129884f",
+    "data": [
+      {
+        "text": "No",
+        "alias": "Answers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526809660
+  },
+  {
+    "id": "af3565c3-dc0f-4998-9ea1-c52bda0b8ad7",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "Answers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526809660
+  }
+]

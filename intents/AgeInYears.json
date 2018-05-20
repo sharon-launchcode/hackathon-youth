@@ -1,0 +1,54 @@
+{
+  "id": "40ef2f7a-4233-4817-aa6a-32962efaf8d1",
+  "parentId": "9c6b295a-de49-47d0-93c7-87e1674481f6",
+  "rootParentId": "8e6244a3-1f12-4be2-9809-644cba5808fd",
+  "name": "AgeInYears",
+  "auto": true,
+  "contexts": [
+    "FosterYouthEligibility-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FosterYouthEligibility.FosterYouthEligibility-yes.FosterYouthEligibility-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "AgeInYears-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8fb56166-4ea8-4d33-a932-7b19aa2bde95",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your age in years?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have your age as $age.original. Thank you. Were you involved in the child welfare or foster care system?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526811546,
+  "fallbackIntent": false,
+  "events": []
+}

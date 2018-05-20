@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5b3badb2-a17b-4718-b73a-1d31267d6d64",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834354
+  },
+  {
+    "id": "557ec6e4-6ef2-4830-bcb1-44482b4fd6f9",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "ActivityAnswers",
+        "meta": "@Answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526834354
+  }
+]
